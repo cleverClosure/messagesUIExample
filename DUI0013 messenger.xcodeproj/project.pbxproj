@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39B5563A1F06DE0C002E3883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B556391F06DE0C002E3883 /* AppDelegate.swift */; };
+		39B5563C1F06DE0C002E3883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5563B1F06DE0C002E3883 /* ViewController.swift */; };
+		39B5563F1F06DE0C002E3883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B5563D1F06DE0C002E3883 /* Main.storyboard */; };
+		39B556411F06DE0C002E3883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B556401F06DE0C002E3883 /* Assets.xcassets */; };
+		39B556441F06DE0C002E3883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B556421F06DE0C002E3883 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39B556361F06DE0C002E3883 /* DUI0013 messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DUI0013 messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B556391F06DE0C002E3883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39B5563B1F06DE0C002E3883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39B5563E1F06DE0C002E3883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39B556401F06DE0C002E3883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B556431F06DE0C002E3883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B556451F06DE0C002E3883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B556331F06DE0C002E3883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39B5562D1F06DE0C002E3883 = {
+			isa = PBXGroup;
+			children = (
+				39B556381F06DE0C002E3883 /* DUI0013 messenger */,
+				39B556371F06DE0C002E3883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39B556371F06DE0C002E3883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39B556361F06DE0C002E3883 /* DUI0013 messenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B556381F06DE0C002E3883 /* DUI0013 messenger */ = {
+			isa = PBXGroup;
+			children = (
+				39B556391F06DE0C002E3883 /* AppDelegate.swift */,
+				39B5563B1F06DE0C002E3883 /* ViewController.swift */,
+				39B5563D1F06DE0C002E3883 /* Main.storyboard */,
+				39B556401F06DE0C002E3883 /* Assets.xcassets */,
+				39B556421F06DE0C002E3883 /* LaunchScreen.storyboard */,
+				39B556451F06DE0C002E3883 /* Info.plist */,
+			);
+			path = "DUI0013 messenger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B556351F06DE0C002E3883 /* DUI0013 messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B556481F06DE0C002E3883 /* Build configuration list for PBXNativeTarget "DUI0013 messenger" */;
+			buildPhases = (
+				39B556321F06DE0C002E3883 /* Sources */,
+				39B556331F06DE0C002E3883 /* Frameworks */,
+				39B556341F06DE0C002E3883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DUI0013 messenger";
+			productName = "DUI0013 messenger";
+			productReference = 39B556361F06DE0C002E3883 /* DUI0013 messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39B5562E1F06DE0C002E3883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					39B556351F06DE0C002E3883 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F5PC84GW85;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39B556311F06DE0C002E3883 /* Build configuration list for PBXProject "DUI0013 messenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39B5562D1F06DE0C002E3883;
+			productRefGroup = 39B556371F06DE0C002E3883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B556351F06DE0C002E3883 /* DUI0013 messenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39B556341F06DE0C002E3883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B556441F06DE0C002E3883 /* LaunchScreen.storyboard in Resources */,
+				39B556411F06DE0C002E3883 /* Assets.xcassets in Resources */,
+				39B5563F1F06DE0C002E3883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39B556321F06DE0C002E3883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B5563C1F06DE0C002E3883 /* ViewController.swift in Sources */,
+				39B5563A1F06DE0C002E3883 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39B5563D1F06DE0C002E3883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B5563E1F06DE0C002E3883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39B556421F06DE0C002E3883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B556431F06DE0C002E3883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39B556461F06DE0C002E3883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39B556471F06DE0C002E3883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39B556491F06DE0C002E3883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5PC84GW85;
+				INFOPLIST_FILE = "DUI0013 messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.cleverClosure.DUI0013-messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39B5564A1F06DE0C002E3883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5PC84GW85;
+				INFOPLIST_FILE = "DUI0013 messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.cleverClosure.DUI0013-messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B556311F06DE0C002E3883 /* Build configuration list for PBXProject "DUI0013 messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B556461F06DE0C002E3883 /* Debug */,
+				39B556471F06DE0C002E3883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B556481F06DE0C002E3883 /* Build configuration list for PBXNativeTarget "DUI0013 messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B556491F06DE0C002E3883 /* Debug */,
+				39B5564A1F06DE0C002E3883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39B5562E1F06DE0C002E3883 /* Project object */;
+}
